@@ -36,13 +36,17 @@ Currently studying mobile development at UCAS, learning cybersecurity on the sid
 ### Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Abdalrahman-py&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&cache_seconds=1800" height="160"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Abdalrahman-py&theme=tokyonight" height="160"/>
   &nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abdalrahman-py&layout=compact&theme=tokyonight&hide_border=true&cache_seconds=1800" height="160"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Abdalrahman-py&theme=tokyonight" height="160"/>
 </p>
 
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=Abdalrahman-py&theme=tokyonight&hide_border=true" height="160"/>
+</p>
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Abdalrahman-py&theme=tokyonight" width="700"/>
 </p>
 
 ---
