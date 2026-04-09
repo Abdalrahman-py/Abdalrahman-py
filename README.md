@@ -36,6 +36,57 @@ A fully offline car rental and booking application. Handles the full rental life
 
 An app where users register, log in, share recipes, discover other users' recipes, and manage their own collection.
 
+<h1 align="center">Abdalrahman</h1>
+
+<p align="center">
+  Android Developer · Arabic-English Technical Translator · Gaza, Palestine 🇵🇸
+</p>
+
+<br/>
+
+I build Android apps with Kotlin and Jetpack Compose. I care about clean architecture, and I take MVVM and layered design seriously — not just as patterns to follow but as ways to write code that doesn't fall apart later.
+
+I'm also an Arabic-English technical translator with a developer background, which means I translate the *context*, not just the words.
+
+Currently studying mobile development at UCAS, learning cybersecurity on the side, and working toward shipping real products.
+
+---
+
+### Stack
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=kotlin,java,androidstudio,git,github,linux,figma,supabase" />
+</p>
+
+---
+
+### Projects
+
+| Project | Description | Stack |
+|--------|-------------|-------|
+| [FillFlow](https://github.com/Abdalrahman-py/FillFlow) | Water tank fill session tracker — real-time timer, cost splitting across tanks, session history | Kotlin · Compose · MVVM · Room · Foreground Service |
+| [Louver](https://github.com/Abdalrahman-py/Louver) | Offline car rental app — full booking lifecycle, filtering, local notifications | Java · MVVM · Room · LiveData |
+| [Recipe Book](https://github.com/Abdalrahman-py/Recipe-Book) | Recipe sharing app — auth, user profiles, shared recipe discovery | Java · Firebase Auth · Firestore |
+| WorkSpace Gaza *(in progress)* | Discover workspaces and wifi-friendly cafes in Gaza, proximity-sorted via backend | KMP · Compose · Supabase |
+
+---
+
+### Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Abdalrahman-py&show_icons=true&theme=tokyonight&hide_border=true" height="150"/>
+  &nbsp;
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abdalrahman-py&layout=compact&theme=tokyonight&hide_border=true" height="150"/>
+</p>
+
+---
+
+<p align="center">
+  <a href="mailto:abdalrahman.py@gmail.com">Email</a> ·
+  <a href="https://linkedin.com/in/abdalrahman-elshaikh-khalil">LinkedIn</a> ·
+  <a href="https://www.upwork.com">Upwork</a>
+</p>
+
 - Tech: Java, Firebase Auth, Firebase Firestore
 - Repository: [View on GitHub](https://github.com/Abdalrahman-py/Recipe-Book)
 
