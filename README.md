@@ -97,3 +97,70 @@ Currently studying mobile development at UCAS, learning cybersecurity on the sid
 - Email: [abdalrahman.py@gmail.com](mailto:abdalrahman.py@gmail.com)
 - LinkedIn: [Abdalrahman Elshaikh Khalil](https://linkedin.com/in/abdalrahman-elshaikh-khalil)
 - GitHub: [@Abdalrahman-py](https://github.com/Abdalrahman-py)
+
+
+<h1 align="center">Abdalrahman</h1>
+
+<p align="center">
+  Android Developer · Arabic-English Technical Translator · Gaza, Palestine 🇵🇸
+</p>
+
+<br/>
+
+I build Android apps with Kotlin and Jetpack Compose. I care about clean architecture, and I take MVVM and layered design seriously — not just as patterns to follow but as ways to write code that doesn't fall apart later.
+
+I'm also an Arabic-English technical translator with a developer background, which means I translate the *context*, not just the words.
+
+Currently studying mobile development at UCAS, learning cybersecurity on the side, and working toward shipping real products.
+
+---
+
+### Stack
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=kotlin,java,androidstudio,git,github,linux,figma,supabase" />
+</p>
+
+---
+
+### Projects
+
+| Project | Description | Stack |
+|--------|-------------|-------|
+| [FillFlow](https://github.com/Abdalrahman-py/FillFlow) | Water tank fill session tracker — real-time timer, cost splitting across tanks, session history | Kotlin · Compose · MVVM · Room · Foreground Service |
+| [Louver](https://github.com/Abdalrahman-py/Louver) | Offline car rental app — full booking lifecycle, filtering, local notifications | Java · MVVM · Room · LiveData |
+| [Recipe Book](https://github.com/Abdalrahman-py/Recipe-Book) | Recipe sharing app — auth, user profiles, shared recipe discovery | Java · Firebase Auth · Firestore |
+| WorkSpace Gaza *(in progress)* | Discover workspaces and wifi-friendly cafes in Gaza, proximity-sorted via backend | KMP · Compose · Supabase |
+
+---
+
+### Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Abdalrahman-py&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" height="150"/>
+  &nbsp;
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abdalrahman-py&layout=compact&theme=tokyonight&hide_border=true" height="150"/>
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=Abdalrahman-py&theme=tokyonight&hide_border=true" height="150"/>
+</p>
+
+---
+
+### Contact
+
+<p align="center">
+  <a href="https://github.com/Abdalrahman-py">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
+  <a href="mailto:abdalrahman.py@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+  </a>
+  <a href="https://linkedin.com/in/abdalrahman-elshaikh-khalil">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
+  <a href="https://www.upwork.com/freelancers/~YOUR_ID">
+    <img src="https://img.shields.io/badge/Upwork-6FDA44?style=for-the-badge&logo=upwork&logoColor=white"/>
+  </a>
+</p>
