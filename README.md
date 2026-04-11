@@ -44,11 +44,6 @@ Currently studying mobile development at UCAS, learning cybersecurity on the sid
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=Abdalrahman-py&theme=tokyonight&hide_border=true" height="160"/>
 </p>
-
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Abdalrahman-py&theme=tokyonight" width="700"/>
-</p>
-
 ---
 
 ### Contact
