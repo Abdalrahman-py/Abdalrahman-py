@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/abdalrahman-elshaikh-khalil">linkedin</a> &nbsp;·&nbsp;
+  <a href="https://www.linkedin.com/in/abdalrahman-elshiekh-khalil-461b963a2/">linkedin</a> &nbsp;·&nbsp;
   <a href="mailto:abdalrahman.py@gmail.com">email</a> &nbsp;·&nbsp;
   <a href="https://github.com/Abdalrahman-py?tab=repositories">repositories</a>
 </p>
