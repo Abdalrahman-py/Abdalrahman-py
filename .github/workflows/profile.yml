@@ -3,10 +3,9 @@ name: Profile analytics
 on:
   schedule: [{ cron: "0 3 * * *" }]
   workflow_dispatch:
-  # Not on every push: metrics commits with a PAT, which would re-trigger this workflow.
   push:
     branches: [main]
-    paths: [".github/workflows/profile.yml"]
+    paths: ["scripts/generate.mjs", ".github/workflows/profile.yml"]
 
 permissions:
   contents: write
@@ -18,67 +17,20 @@ concurrency:
 jobs:
   render:
     runs-on: ubuntu-latest
-    env:
-      METRICS_TOKEN: ${{ secrets.METRICS_TOKEN }}
     steps:
       - uses: actions/checkout@v4
-
-      # --- lowlighter/metrics: needs METRICS_TOKEN secret (see README of this repo's setup notes) ---
-      - name: Overview (header, activity, repos)
-        if: env.METRICS_TOKEN != ''
-        uses: lowlighter/metrics@latest
+      - uses: actions/setup-node@v4
         with:
-          token: ${{ env.METRICS_TOKEN }}
-          filename: metrics/overview.svg
-          committer_message: "chore: update metrics overview"
-          config_timezone: Asia/Gaza
-          base: header, activity, community, repositories
-          repositories_forks: false
-          plugin_activity: yes
-          plugin_activity_limit: 5
-          plugin_activity_days: 14
-
-      - name: Languages and habits
-        if: env.METRICS_TOKEN != ''
-        uses: lowlighter/metrics@latest
-        with:
-          token: ${{ env.METRICS_TOKEN }}
-          filename: metrics/languages-habits.svg
-          committer_message: "chore: update metrics languages"
-          config_timezone: Asia/Gaza
-          base: ""
-          plugin_languages: yes
-          plugin_languages_sections: most-used
-          plugin_languages_limit: 8
-          plugin_habits: yes
-          plugin_habits_days: 30
-          plugin_habits_charts: yes
-
-      - name: Isometric calendar
-        if: env.METRICS_TOKEN != ''
-        uses: lowlighter/metrics@latest
-        with:
-          token: ${{ env.METRICS_TOKEN }}
-          filename: metrics/isocalendar.svg
-          committer_message: "chore: update isocalendar"
-          config_timezone: Asia/Gaza
-          base: ""
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
-
-      # --- Platane/snk: works with the built-in GITHUB_TOKEN, no setup ---
-      - name: Contribution snake
-        uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            metrics/snake.svg
-            metrics/snake-dark.svg?palette=github-dark
-
-      - name: Commit snake
+          node-version: 22
+      # PROFILE_TOKEN is optional: a scope-less PAT adds private-repo contributions. Falls back to the built-in token.
+      - name: Generate SVGs
+        run: node scripts/generate.mjs
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          PROFILE_TOKEN: ${{ secrets.PROFILE_TOKEN }}
+      - name: Commit
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git pull --rebase --autostash
-          git add metrics/snake.svg metrics/snake-dark.svg
-          git diff --cached --quiet || (git commit -m "chore: update snake" && git push)
+          git add assets
+          git diff --cached --quiet || (git commit -m "chore: refresh profile assets" && git push)

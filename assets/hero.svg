@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="346" viewBox="0 0 880 346" role="img" aria-label="abdalrahman@gaza: ~"><style>text{font-family:'JetBrains Mono','Fira Code','SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace}.b{font-weight:700}</style>
+<rect x=".5" y=".5" width="879" height="345" rx="10" fill="#0d1117" stroke="#30363d"/>
+<path d="M.5 36V10.5a10 10 0 0 1 10-10h859a10 10 0 0 1 10 10V36z" fill="#161b22"/>
+<line x1=".5" y1="36" x2="879.5" y2="36" stroke="#30363d"/>
+<circle cx="22" cy="18" r="5.5" fill="#ff7b72"/><circle cx="42" cy="18" r="5.5" fill="#d29922"/><circle cx="62" cy="18" r="5.5" fill="#3fb950"/>
+<text x="440" y="23" text-anchor="middle" font-size="12" fill="#8b949e">abdalrahman@gaza: ~</text>
+
+<text x="28" y="92" font-size="36" class="b" fill="#e6edf3">Abdalrahman<tspan fill="#3fb950">_</tspan></text>
+<text x="28" y="120" font-size="15" fill="#8b949e">mobile  /  backend  /  generative AI engineer</text>
+<line x1="28" y1="140" x2="852" y2="140" stroke="#30363d"/>
+<g opacity="0"><set attributeName="opacity" to="1" begin="0.4s" fill="freeze"/>
+<text x="28" y="170" font-size="14" fill="#3fb950">$</text><text x="46" y="170" font-size="14" fill="#79c0ff">cat location</text>
+<text x="46" y="192" font-size="14" fill="#e6edf3">Gaza, Palestine  -  UCAS, mobile development</text></g>
+<g opacity="0"><set attributeName="opacity" to="1" begin="1.2s" fill="freeze"/>
+<text x="28" y="220" font-size="14" fill="#3fb950">$</text><text x="46" y="220" font-size="14" fill="#79c0ff">ls ~/building</text>
+<text x="46" y="242" font-size="14" fill="#e6edf3">sadad  raghif  wathiq  it-club  bayaan  madad</text></g>
+<g opacity="0"><set attributeName="opacity" to="1" begin="2s" fill="freeze"/>
+<text x="28" y="270" font-size="14" fill="#3fb950">$</text><text x="46" y="270" font-size="14" fill="#79c0ff">echo $FOCUS</text>
+<text x="46" y="292" font-size="14" fill="#3fb950">offline-first apps, Postgres-backed systems, LLM pipelines that ship</text></g>
+<g opacity="0"><set attributeName="opacity" to="1" begin="2.8s" fill="freeze"/>
+<text x="28" y="320" font-size="14" fill="#3fb950">$</text>
+<rect x="46" y="307" width="9" height="16" fill="#3fb950"><animate attributeName="opacity" values="1;1;0;0" keyTimes="0;.5;.5;1" dur="1.1s" repeatCount="indefinite"/></rect></g></svg>
